@@ -38,4 +38,34 @@ document.write("<br><br>")
 
 }
 
+//exercicio 4
 
+let idade = prompt("digite sua idade")
+
+if (idade <= 12){
+
+    document.write("você é uma criança")
+    document.write("<br><br>")
+
+}
+
+else if (idade > 12 || idade <= 18){
+
+    document.write("voce é um adolescente")
+    document.write("<br><br>")
+
+}
+
+else if (idade > 18 || idade <= 60){
+
+    document.write("voce é um adulto")
+    document.write("<br><br>")
+
+}
+
+else if (idade > 60){
+
+    document.write("voce é um idoso")
+    document.write("<br><br>")
+
+}
